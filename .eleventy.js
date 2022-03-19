@@ -4,7 +4,7 @@ const sass = require("sass");
 module.exports = function(eleventyConfig) {
 
   eleventyConfig.addWatchTarget("./_src/assets/scss/");
-  eleventyConfig.addPassthroughCopy("./_src/assets/images/");
+  eleventyConfig.addPassthroughCopy("./_src/assets/fonts/");
   eleventyConfig.addShortcode("year", () => `${new Date().getFullYear()}`);
   eleventyConfig.addFilter("postDate", (dateObj) => {
     return DateTime.fromJSDate(dateObj, {zone: 'utc'}).toLocaleString(DateTime.DATE_FULL);

@@ -1,0 +1,7 @@
+.be-styles {
+  :where(body) {
+    font-family: 'Suisse', sans-serif;
+    max-width: 60ch;
+    padding: 2rem;
+  }
+}
