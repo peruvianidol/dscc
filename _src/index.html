@@ -2,4 +2,32 @@
 layout: base
 ---
 
-<h1>Design System Coding Challenge</h1>
+<form class="be-card be-inset-stretch-32 be-block-32">
+  <p class="be-heading-3 be-block-4">Sign up for our newsletter!</p>
+  <p class="be-text-small be-block-24">Recieve the latest news on why donuts are an essential food group.</p>
+  
+  <label for="full-name" class="be-label be-block-4">Full name</label>
+  <input type="text" class="be-input-text be-block-16" id="full-name" name="full-name" placeholder="Guy Fieri">
+
+  <label for="email" class="be-label be-block-4">Email</label>
+  <p class="be-text-subdued be-text-small be-block-8">Must be a work email.</p>
+  <input type="email" class="be-input-text be-block-24" id="email" name="email" placeholder="you@example.com">
+
+  <button type="submit" class="be-button-primary">Submit</button>
+  
+</form>
+
+<label for="disabled" class="be-label be-block-4">Disabled</label>
+<input type="text" class="be-input-text be-block-16" id="disabled" name="full-name" placeholder="Guy Fieri" value="Mike Aparicio" disabled>
+
+<label for="error" class="be-label be-block-4">Error</label>
+<input type="email" class="be-input-text be-block-24 be-error" id="error" name="email" placeholder="you@example.com" value="peruvianidol@gmail.com">
+
+<div class="be-space-between be-block-4">
+  <label for="help" class="be-label">Help text</label>
+  <p class="be-text-subdued be-text-small">Optional</p>
+</div>  
+<input type="text" class="be-input-text be-block-16" id="help" name="full-name" placeholder="Guy Fieri">
+
+<label for="email-icon" class="be-label be-block-4">Email</label>
+<input type="email" class="be-input-email be-block-24" id="email-icon" name="email" placeholder="you@example.com">

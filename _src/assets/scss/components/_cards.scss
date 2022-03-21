@@ -1,0 +1,8 @@
+.be-card {
+  --max-width: 304px;
+  background-color: $color-background-body;
+  border-radius: $border-radius-small;
+  border: $border-width-thin solid $color-border-default;
+  max-width: var(--max-width);
+  box-shadow: $shadow-1;
+}

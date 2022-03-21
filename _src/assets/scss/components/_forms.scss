@@ -1,0 +1,42 @@
+.be-label {
+  display: block;
+  font-size: $text-small-font-size;
+  line-height: $text-small-line-height;
+  font-weight: $font-weight-medium;
+  color: $color-text-label;
+}
+
+[class*="be-input"] {
+  display: block;
+  font-size: $text-small-font-size;
+  line-height: $text-small-line-height;
+  box-shadow: $shadow-1;
+  border: 0;
+  outline: $border-width-thin solid $color-border-default;
+  border-radius: $border-radius-small;
+  padding: $spacing-8 $spacing-12;
+  width: 100%;
+  &:focus {
+    outline-color: $color-border-focus;
+  }
+  &:invalid, &.be-error {
+    outline-color: $color-border-error;
+    color: $color-text-error;
+    background-image: $icon-error;
+    background-repeat: no-repeat;
+    background-size: $icon-size-small;
+    background-position: right $spacing-12 top 50%;
+    padding-inline-end: calc(#{$spacing-12 * 2} + #{$spacing-16});
+  }
+  &:disabled {
+    background-color: $color-background-disabled;
+  }
+}
+
+.be-input-email {
+  background-image: $icon-email;
+  background-repeat: no-repeat;
+  background-size: $icon-size-small;
+  background-position: left $spacing-12 top 50%;
+  padding-inline-start: calc(#{$spacing-12 * 2} + #{$spacing-16});
+}

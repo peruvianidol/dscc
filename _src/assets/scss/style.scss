@@ -1,5 +1,16 @@
-@use 'abstracts/icons' as *;
-@use 'abstracts/tokens' as *;
-@use 'base/fonts';
-@use 'base/reset';
-@use 'base/global';
+@import 'abstracts/icons';
+@import 'abstracts/tokens';
+@import 'base/fonts';
+@import 'base/reset';
+@import 'base/global';
+@import 'components/cards';
+@import 'components/type';
+@import 'components/forms';
+@import 'components/buttons';
+@import 'utilities/spacing';
+@import 'utilities/flexbox';
+
+body {
+  max-width: 60ch;
+  padding: 2rem;
+}

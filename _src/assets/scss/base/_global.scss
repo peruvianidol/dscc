@@ -1,6 +1,8 @@
 .ds-styles {
   :where(body) {
     font-family: 'Suisse', sans-serif;
+    font-size: $text-small-font-size;
+    line-height: $text-small-line-height;
     max-width: 60ch;
     padding: 2rem;
   }

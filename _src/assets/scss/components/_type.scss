@@ -1,0 +1,17 @@
+[class*="be-heading"] {
+  font-weight: $font-weight-medium;
+}
+
+.be-heading-3 {
+  font-size: $heading-3-font-size;
+  line-height: $heading-3-line-height;
+}
+
+.be-text-subdued {
+  color: $color-text-subdued;
+}
+
+.be-text-small {
+  font-size: $text-small-font-size;
+  line-height: $text-small-line-height;
+}

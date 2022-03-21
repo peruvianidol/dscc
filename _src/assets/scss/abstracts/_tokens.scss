@@ -1,5 +1,68 @@
-/* GLOBAL TOKENS */
+/* Global Tokens */
 
-/* CONTEXTUAL TOKENS */
+$color-white: hsl(0 100% 100%);
 
-/* COMPONENT TOKENS */
+$color-gray-10: hsl(210 40% 98%);
+$color-gray-30: hsl(215 27% 91%);
+$color-gray-50: hsl(216 17% 69%);
+$color-gray-60: hsl(219 13% 52%);
+$color-gray-65: hsl(219 14% 48%);
+$color-gray-70: hsl(219 15% 35%);
+
+$color-blue-80: hsl(221 23% 14%);
+$color-teal-30: hsl(184 37% 45%);
+
+$color-red-60: hsl(7 67% 37%);
+$color-red-70: hsl(7 67% 48%);
+$color-red-80: hsl(8 67% 53%);
+
+$font-family-sans: 'Suisse', sans-serif;
+
+$font-size-100: .875rem;
+$font-size-200: 1rem;
+
+$font-weight-regular: 400;
+$font-weight-medium: 500;
+
+$line-height-100: 1.429;
+$line-height-200: 1.5;
+
+$spacing-4: .25rem;
+$spacing-8: .5rem;
+$spacing-12: .75rem;
+$spacing-16: 1rem;
+$spacing-24: 1.5rem;
+$spacing-32: 2rem;
+
+$border-radius-small: 2px;
+$border-width-thin: 1px;
+
+$shadow-1: 0 1px 2px hsl(0 0% 0% / .05);
+
+$icon-size-small: 1rem;
+
+/* Contextual Tokens */
+
+$color-text-body: $color-blue-80;
+$color-text-subdued: $color-gray-60;
+$color-text-error: $color-red-60;
+$color-text-inverse: $color-white;
+$color-text-label: $color-gray-70;
+$color-background-body: $color-white;
+$color-background-disabled: $color-gray-10;
+$color-border-default: $color-gray-30;
+$color-border-focus: $color-teal-30;
+$color-border-error: $color-red-70;
+
+$color-background-brand: $color-blue-80;
+
+/* Component Tokens */
+
+$text-small-font-size: $font-size-100;
+$text-small-line-height: $line-height-100;
+
+$text-medium-font-size: $font-size-200;
+$text-medium-line-height: $line-height-200;
+
+$heading-3-font-size: $font-size-200;
+$heading-3-line-height: $line-height-200;
